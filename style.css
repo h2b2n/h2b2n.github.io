@@ -1,39 +1,12 @@
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: beige ;
 }
 
-#time{
-    position: relative;
-    top: 150px;
-    left:0px;
+h1 {
+    color : cornflowerblue;
 }
 
-#weather{
-    position: relative;
-    top: 175px;
-    left:-285px;
-}
-#login-form{
-    position: fixed;
-    top: 300px;
-}
-
-#greeting{
-    position: fixed;
-    top: 300px;
-}
-
-#todo-form{
-    position: fixed;
-    top: 400px;
-}
-
-#todo-list{
-    position: fixed;
-    top: 420px;
-}
-.hidden{
-    display: none;
+.active{
+    color : tomato ;
+    transition : color .5s ease-in-out ;
 }
