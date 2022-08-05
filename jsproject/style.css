@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#time{
+    position: relative;
+    top: 150px;
+    left:0px;
+}
+
+#weather{
+    position: relative;
+    top: 175px;
+    left:-285px;
+}
+#login-form{
+    position: fixed;
+    top: 300px;
+}
+
+#greeting{
+    position: fixed;
+    top: 300px;
+}
+
+#todo-form{
+    position: fixed;
+    top: 400px;
+}
+
+#todo-list{
+    position: fixed;
+    top: 420px;
+}
+.hidden{
+    display: none;
+}
